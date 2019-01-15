@@ -1,0 +1,37 @@
+.addpost{
+    height: 200px;
+    width: 100%;
+}
+.title, .tags{
+    width:100%;
+}
+.button{
+    text-align: center;
+    padding: 15px;
+}
+.bar{
+    width:100%;
+    background-color: rgb(106, 106, 141);
+
+}
+.logo{
+   width: 27%;
+   
+}
+.barlogo{
+    padding: 10px;
+   text-align: center;
+}
+.search{
+    padding: 5px;
+}
+.searchbox{
+    padding: 15px;
+
+}
+.baritem{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+

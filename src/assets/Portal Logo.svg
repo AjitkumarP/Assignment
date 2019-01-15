@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.714 83.714">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00cb8e;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 35px;
+        font-family: Ubuntu-Bold, Ubuntu;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Group_709" data-name="Group 709" transform="translate(-100 -24)">
+    <circle id="Ellipse_55" data-name="Ellipse 55" class="cls-1" cx="41.857" cy="41.857" r="41.857" transform="translate(100 24)"/>
+    <text id="UI" class="cls-2" transform="translate(123.064 47.064)"><tspan x="0" y="33">UI</tspan></text>
+  </g>
+</svg>

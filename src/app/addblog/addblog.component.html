@@ -1,0 +1,34 @@
+<div class="bar col-sm-12 col-lg-12 col-md-12">
+    <div class="col-sm-4 col-lg-4 col-md-4">
+      <div class="col-sm-6 col-lg-6 col-md-6 barlogo"><img class="logo" routerLink="/addblog" src="../assets/Portal Logo.svg" alt="Logo"></div>
+      
+      <div class="col-sm-3 col-lg-3 col-md-3 baritem">Test</div>
+      <div class="col-sm-3 col-lg-3 col-md-3 baritem">Debate</div>
+    </div>
+    <div class="col-sm-2 col-lg-2 col-md-2 searchbox"><input type="text" class="search" placeholder="search"></div>
+    <div class="col-sm-2 col-lg-2 col-md-2"></div>
+    <div class="col-sm-4 col-lg-4 col-md-4">
+      <div class="col-sm-4 col-lg-4 col-md-4 baritem">Requested</div>
+      <div class="col-sm-4 col-lg-4 col-md-4"><img src="../assets/notification.png" alt="Notification"></div>
+      <div class="col-sm-4 col-lg-4 col-md-4"><img src="../assets/user.png" alt="user"></div>
+    </div>
+
+  </div>
+<div class="col-lg-12 col-md-12 col-sm-12">
+  <div class="col-lg-12 col-md-12 col-sm-12">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <div class="col-lg-6 col-md-6 col-sm-6"><img style="width:30px" src="../assets/left-arrow.png" routerLink="../home" alt="left arrow"></div>
+      <div class="col-lg-6 col-md-6 col-sm-6 button"><button (click)="onpublish()">Publish</button></div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <input type="text" class="title" placeholder="Enter Title here"[(ngModel)]="user.title">
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <textarea placeholder="Enter post here" cols="30" rows="10" class="addpost" [(ngModel)]="user.post"></textarea>
+    </div>  
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <input type="text" class="tags" placeholder="Add Tags">
+    </div>
+  </div>
+</div>
+<pre *ngFor="let item of items | async">{{item.content.title}}</pre>

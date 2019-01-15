@@ -1,0 +1,23 @@
+<div class="col-lg-12 col-md-12 col-sm-12 mainblock">
+  <div class="col-lg-2 col-md-2 col-sm-2"></div>
+  <div class="col-lg-8 col-md-8 col-sm-8">
+    <div *ngFor="let user of users" class="col-lg-8 col-md-8 col-sm-8">
+      <div class="homebody">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="col-lg-6 col-md-6 col-sm-6"><img src="../assets/man.png" alt="Man"></div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div>{{user.title}}</div>
+          <div>UI Designer</div>
+        </div>
+      </div> 
+      <div>
+        <h3>What is the trend in UI design after flat design?</h3>
+        {{user.post}}
+      </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4"></div>
+  </div>
+  <div class="col-lg-2 col-md-2 col-sm-2"></div>
+</div>
+<pre *ngFor="let item of items | async">{{item.content.title}}</pre>
